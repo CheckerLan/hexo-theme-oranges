@@ -21,13 +21,13 @@
 # 网站图标
 favicon:
   enable: true
-  icon: /images/favicon.png
-  touch_icon: /images/favicon.png
+  icon: /images/lemon.png
+  touch_icon: /images/lemon.png
 
 # 用户头像与昵称
 avatar:
-  author_photo: /images/avatar.png
-  author_nickname: Oranges
+  author_photo: /images/lemon.png
+  author_nickname: CheckerLan
   path: /
 
 # Google 分析
@@ -100,11 +100,6 @@ navbar:
     path: /tags/
     key: tags
   -
-    name: Friends
-    enable: true
-    path: /friends/
-    key: friends
-  -
     name: About
     enable: true
     path: /about/
@@ -117,20 +112,6 @@ catalog:
 # 文章末尾的上一页与下一页
 prevnext:
   enable: true
-
-# 友链详细信息：支持多个友链
-friends:
-  # nickname: 昵称
-  # site: 地址
-  # meta: 描述
-  -
-    nickname: Zcheng
-    site: https://zcheng.site/
-    meta:
-  -
-    nickname: Hexo
-    site: https://hexo.io/
-    meta:
 
 # 页脚信息
 footer:
@@ -145,7 +126,7 @@ footer:
     -
       name: github
       icon: github
-      path: https://github.com/zchengsite/hexo-theme-oranges
+      path: https://github.com/CheckerLan
     # -
     #   name: email
     #   icon: envelope
@@ -178,8 +159,8 @@ footer:
     # 一般用来显示根据各种场景需要切换的文本，如时间年份
     # 如：{thisYear} 会被替换为今年年份
     -
-      name: Copyright © {thisYear} Oranges
-      path: https://github.com/zchengsite/hexo-theme-oranges
+      name: Copyright © {thisYear} CheckerLan
+      path: https://github.com/CheckerLan
     -
       name: Theme by Oranges | Powered by Hexo
       path: https://github.com/zchengsite/hexo-theme-oranges
